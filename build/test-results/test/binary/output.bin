@@ -1,0 +1,101 @@
+
+hi there
+
+hi there
+i wnat to see hereNantong
+
+
+
+hi there
+
+
+{single history is [Nantong, 04, 14.9, 2.59031, northeast, 100.0, 0.0, 141, c04n, Overcast clouds, 1, 32.03028, 120.87472]
+
+
+vcity weather is [Nantong, 04, 17.3, 3.38535, east-northeast, 100, 0, 90, c04d, Overcast clouds, 32.03028, 120.87472]
+
+
+{single history is [Nantong, 04, 14.9, 2.59031, northeast, 100.0, 0.0, 141, c04n, Overcast clouds, 1, 32.03028, 120.87472]
+
+
+ncity weather is [Nanjing, 04, 26.2, 4.45389, east-southeast, 8, 0, 55, c01d, Clear sky, 32.06167, 118.77778]
+
+
+xsingle history is [Nantong, 04, 14.9, 2.59031, northeast, 100.0, 0.0, 141, c04n, Overcast clouds, 32.03028, 120.87472]
+
+
+vcity weather is [Nantong, 04, 17.3, 3.38535, east-northeast, 100, 0, 90, c04d, Overcast clouds, 32.03028, 120.87472]
+
+
+xsingle history is [Nantong, 04, 14.9, 2.59031, northeast, 100.0, 0.0, 141, c04n, Overcast clouds, 32.03028, 120.87472]
+
+
+ncity weather is [Nanjing, 04, 26.2, 4.45389, east-southeast, 8, 0, 55, c01d, Clear sky, 32.06167, 118.77778]
+
+
+psingle history is [Nanjing, 04, 26.2, 4.45389, east-southeast, 8, 0, 55, c01d, Clear sky, 32.06167, 118.77778]
+
+
+ncity weather is [Nanjing, 04, 26.2, 4.45389, east-southeast, 8, 0, 55, c01d, Clear sky, 32.06167, 118.77778]
+
+hi there
+
+hi there
+
+look at here!
+
+
+k[[Nantong, 04, 14.9, 2.59031, northeast, 100.0, 0.0, 141, c04n, Overcast clouds, 1, 32.03028, 120.87472]]
+`[Nantong, 04, 17.3, 3.38535, east-northeast, 100, 0, 90, c04d, Overcast clouds, 32.03, 120.87]
+	Nantong
+Paracel Islands
+#cityPair is [32.03028, 120.87472]
+~offline city weather is [Nantong, 04, 17.3, 3.38535, east-northeast, 100, 0, 90, c04d, Overcast clouds, 32.03028, 120.87472]
+Åmy getting city weather is [Nantong, 04, 17.3, 3.38535, east-northeast, 100, 0, 90, c04d, Overcast clouds, 32.03028, 120.87472]
+	Nantong
+Paracel Islands
+#cityPair is [32.03028, 120.87472]
+
+jsonObject is 
+â{"data":[{"rh":66.875,"pod":"d","lon":120.87,"pres":1011.5,"timezone":"Asia/Shanghai","ob_time":"2022-05-12 02:11","country_code":"CN","clouds":98,"ts":1652321493,"solar_rad":230.3,"state_code":"04","city_name":"Nantong","wind_spd":3.6113,"wind_cdir_full":"northeast","wind_cdir":"NE","slp":1012,"vis":10,"h_angle":-25.7,"sunset":"10:41","dni":911.54,"dewpt":15.9,"snow":0,"uv":2.83503,"precip":0,"wind_dir":49,"sunrise":"21:00","ghi":909.83,"dhi":120.07,"aqi":80,"lat":32.03,"weather":{"icon":"c04d","code":804,"description":"Overcast clouds"},"datetime":"2022-05-12:02","temp":22.5,"station":"ZSSS","elev_angle":61.07,"app_temp":22.5}],"count":1}
+
+
+hello?
+Y[Nantong, 04, 22.5, 3.6113, northeast, 98, 0, 80, c04d, Overcast clouds, 32.03, 120.87]
+smy getting city weather is [Nantong, 04, 22.5, 3.6113, northeast, 98, 0, 80, c04d, Overcast clouds, 32.03, 120.87]
+
+#cityPair is [32.03028, 120.87472]
+Y[Nantong, 04, 22.5, 3.6113, northeast, 98, 0, 80, c04d, Overcast clouds, 32.03, 120.87]
+	Nantong
+Paracel Islands
+
+jsonObject is 
+null
+
+
+!my getting city weather is null
+)Saving Status Table Create Successfully
+Added questionable data
+Added questionable data
+Added questionable data
+Ω[[Sydney, 02, 19.4, 1.34927, northwest, 100.0, 4.42038, 53, r02d, Moderate rain, 1, 34.05223, -118.24368], [Los Angeles, CA, 14.2, 1.52177, east, 14.0, 0.0, 74, c02n, Few clouds, 2, -33.86785, 151.20732], [Melbourne, 07, 21.1, 2.20657, north-northeast, 100.0, 0.0, 41, c04n, Overcast clouds, 3, -37.814, 144.96332]]
+Query Data Successfully!
+≈query is[[Sydney, 02, 19.4, 1.34927, northwest, 100.0, 4.42038, 53, r02d, Moderate rain, 1, 34.05223, -118.24368], [Los Angeles, CA, 14.2, 1.52177, east, 14.0, 0.0, 74, c02n, Few clouds, 2, -33.86785, 151.20732], [Melbourne, 07, 21.1, 2.20657, north-northeast, 100.0, 0.0, 41, c04n, Overcast clouds, 3, -37.814, 144.96332]]
+…expected is [[Sydney, 02, 19.4, 1.34927, northwest, 100.0, 4.42038, 53, r02d, Moderate rain, 1, 34.05223, -118.24368], [Los Angeles, CA, 14.2, 1.52177, east, 14.0, 0.0, 74, c02n, Few clouds, 2, -33.86785, 151.20732], [Melbourne, 07, 21.1, 2.20657, north-northeast, 100.0, 0.0, 41, c04n, Overcast clouds, 3, -37.814, 144.96332]]
+Query Data Successfully!
+CLEAR SUCCESS
+€[[Sydney, 02, 19.4, 1.34927, northwest, 100.0, 4.42038, 53, r02d, Moderate rain, 1, 34.05223, -118.24368], [Melbourne, 07, 21.1, 2.20657, north-northeast, 100.0, 0.0, 41, c04n, Overcast clouds, 3, -37.814, 144.96332]]
+Query Data Successfully!
+Added questionable data
+CLEAR SUCCESS
+€[[Sydney, 02, 19.4, 1.34927, northwest, 100.0, 4.42038, 53, r02d, Moderate rain, 1, 34.05223, -118.24368], [Melbourne, 07, 21.1, 2.20657, north-northeast, 100.0, 0.0, 41, c04n, Overcast clouds, 3, -37.814, 144.96332]]
+Query Data Successfully!
+CLEAR SUCCESS
+[]
+Query Data Successfully!
+)Saving Status Table Create Successfully
+Added questionable data
+l[[Sydney, 02, 19.4, 1.34927, northwest, 100.0, 4.42038, 53, r02d, Moderate rain, 1, 34.05223, -118.24368]]
+Query Data Successfully!
+l[[Sydney, 02, 19.4, 1.34927, northwest, 100.0, 4.42038, 53, r02d, Moderate rain, 1, 34.05223, -118.24368]]
+Query Data Successfully!

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="au.edu.sydney.soft3202.majorproject.TestDBLogic" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-06-17T23:05:01" hostname="DESKTOP-760HHIN" time="0.626">
+  <properties/>
+  <testcase name="testDBWrapperWithMockOffline()" classname="au.edu.sydney.soft3202.majorproject.TestDBLogic" time="0.537"/>
+  <testcase name="testDBAddOnlineWithMockUpdateDB()" classname="au.edu.sydney.soft3202.majorproject.TestDBLogic" time="0.039"/>
+  <testcase name="testCheckCacheWithMock()" classname="au.edu.sydney.soft3202.majorproject.TestDBLogic" time="0.012"/>
+  <testcase name="testDBReplaceOnlineWithMock()" classname="au.edu.sydney.soft3202.majorproject.TestDBLogic" time="0.004"/>
+  <testcase name="checkModelHasRecordWithMock()" classname="au.edu.sydney.soft3202.majorproject.TestDBLogic" time="0.007"/>
+  <testcase name="testDBAddOfflineWithMock()" classname="au.edu.sydney.soft3202.majorproject.TestDBLogic" time="0.002"/>
+  <testcase name="testDBAddOnlineWithMock()" classname="au.edu.sydney.soft3202.majorproject.TestDBLogic" time="0.005"/>
+  <testcase name="testDBSetupAndClearWithMock()" classname="au.edu.sydney.soft3202.majorproject.TestDBLogic" time="0.005"/>
+  <testcase name="testDBWrapperWithMockOnlineQueryCityByName()" classname="au.edu.sydney.soft3202.majorproject.TestDBLogic" time="0.004"/>
+  <testcase name="testDBWrapperWithMockOnline()" classname="au.edu.sydney.soft3202.majorproject.TestDBLogic" time="0.003"/>
+  <system-out><![CDATA[hi there
+hi there
+i wnat to see hereNantong
+
+
+hi there
+
+
+single history is [Nantong, 04, 14.9, 2.59031, northeast, 100.0, 0.0, 141, c04n, Overcast clouds, 1, 32.03028, 120.87472]
+
+
+city weather is [Nantong, 04, 17.3, 3.38535, east-northeast, 100, 0, 90, c04d, Overcast clouds, 32.03028, 120.87472]
+
+
+single history is [Nantong, 04, 14.9, 2.59031, northeast, 100.0, 0.0, 141, c04n, Overcast clouds, 1, 32.03028, 120.87472]
+
+
+city weather is [Nanjing, 04, 26.2, 4.45389, east-southeast, 8, 0, 55, c01d, Clear sky, 32.06167, 118.77778]
+
+
+single history is [Nantong, 04, 14.9, 2.59031, northeast, 100.0, 0.0, 141, c04n, Overcast clouds, 32.03028, 120.87472]
+
+
+city weather is [Nantong, 04, 17.3, 3.38535, east-northeast, 100, 0, 90, c04d, Overcast clouds, 32.03028, 120.87472]
+
+
+single history is [Nantong, 04, 14.9, 2.59031, northeast, 100.0, 0.0, 141, c04n, Overcast clouds, 32.03028, 120.87472]
+
+
+city weather is [Nanjing, 04, 26.2, 4.45389, east-southeast, 8, 0, 55, c01d, Clear sky, 32.06167, 118.77778]
+
+
+single history is [Nanjing, 04, 26.2, 4.45389, east-southeast, 8, 0, 55, c01d, Clear sky, 32.06167, 118.77778]
+
+
+city weather is [Nanjing, 04, 26.2, 4.45389, east-southeast, 8, 0, 55, c01d, Clear sky, 32.06167, 118.77778]
+hi there
+hi there
+look at here!
+
+[[Nantong, 04, 14.9, 2.59031, northeast, 100.0, 0.0, 141, c04n, Overcast clouds, 1, 32.03028, 120.87472]]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

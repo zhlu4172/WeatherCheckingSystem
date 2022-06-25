@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="au.edu.sydney.soft3202.majorproject.TestSQLFunction" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-06-17T23:05:02" hostname="DESKTOP-760HHIN" time="0.071">
+  <properties/>
+  <testcase name="testMixSituation()" classname="au.edu.sydney.soft3202.majorproject.TestSQLFunction" time="0.068"/>
+  <testcase name="testAddAndQuery()" classname="au.edu.sydney.soft3202.majorproject.TestSQLFunction" time="0.002"/>
+  <system-out><![CDATA[Saving Status Table Create Successfully
+Added questionable data
+Added questionable data
+Added questionable data
+[[Sydney, 02, 19.4, 1.34927, northwest, 100.0, 4.42038, 53, r02d, Moderate rain, 1, 34.05223, -118.24368], [Los Angeles, CA, 14.2, 1.52177, east, 14.0, 0.0, 74, c02n, Few clouds, 2, -33.86785, 151.20732], [Melbourne, 07, 21.1, 2.20657, north-northeast, 100.0, 0.0, 41, c04n, Overcast clouds, 3, -37.814, 144.96332]]
+Query Data Successfully!
+query is[[Sydney, 02, 19.4, 1.34927, northwest, 100.0, 4.42038, 53, r02d, Moderate rain, 1, 34.05223, -118.24368], [Los Angeles, CA, 14.2, 1.52177, east, 14.0, 0.0, 74, c02n, Few clouds, 2, -33.86785, 151.20732], [Melbourne, 07, 21.1, 2.20657, north-northeast, 100.0, 0.0, 41, c04n, Overcast clouds, 3, -37.814, 144.96332]]
+expected is [[Sydney, 02, 19.4, 1.34927, northwest, 100.0, 4.42038, 53, r02d, Moderate rain, 1, 34.05223, -118.24368], [Los Angeles, CA, 14.2, 1.52177, east, 14.0, 0.0, 74, c02n, Few clouds, 2, -33.86785, 151.20732], [Melbourne, 07, 21.1, 2.20657, north-northeast, 100.0, 0.0, 41, c04n, Overcast clouds, 3, -37.814, 144.96332]]
+Query Data Successfully!
+CLEAR SUCCESS
+[[Sydney, 02, 19.4, 1.34927, northwest, 100.0, 4.42038, 53, r02d, Moderate rain, 1, 34.05223, -118.24368], [Melbourne, 07, 21.1, 2.20657, north-northeast, 100.0, 0.0, 41, c04n, Overcast clouds, 3, -37.814, 144.96332]]
+Query Data Successfully!
+Added questionable data
+CLEAR SUCCESS
+[[Sydney, 02, 19.4, 1.34927, northwest, 100.0, 4.42038, 53, r02d, Moderate rain, 1, 34.05223, -118.24368], [Melbourne, 07, 21.1, 2.20657, north-northeast, 100.0, 0.0, 41, c04n, Overcast clouds, 3, -37.814, 144.96332]]
+Query Data Successfully!
+CLEAR SUCCESS
+[]
+Query Data Successfully!
+Saving Status Table Create Successfully
+Added questionable data
+[[Sydney, 02, 19.4, 1.34927, northwest, 100.0, 4.42038, 53, r02d, Moderate rain, 1, 34.05223, -118.24368]]
+Query Data Successfully!
+[[Sydney, 02, 19.4, 1.34927, northwest, 100.0, 4.42038, 53, r02d, Moderate rain, 1, 34.05223, -118.24368]]
+Query Data Successfully!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

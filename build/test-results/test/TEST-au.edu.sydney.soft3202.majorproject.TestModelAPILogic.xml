@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="au.edu.sydney.soft3202.majorproject.TestModelAPILogic" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-06-17T23:05:02" hostname="DESKTOP-760HHIN" time="0.139">
+  <properties/>
+  <testcase name="testInputAPIWithoutMock()" classname="au.edu.sydney.soft3202.majorproject.TestModelAPILogic" time="0.029"/>
+  <testcase name="testInputAPIWithMock_offline()" classname="au.edu.sydney.soft3202.majorproject.TestModelAPILogic" time="0.036"/>
+  <testcase name="testInputAPIWithMockOnline()" classname="au.edu.sydney.soft3202.majorproject.TestModelAPILogic" time="0.022"/>
+  <testcase name="testInputAPIWithMock_invalidKey_online()" classname="au.edu.sydney.soft3202.majorproject.TestModelAPILogic" time="0.023"/>
+  <testcase name="testOutputAPIOnlineWithMock_invalidKey()" classname="au.edu.sydney.soft3202.majorproject.TestModelAPILogic" time="0.019"/>
+  <testcase name="testOutputAPIOfflineWithoutMock()" classname="au.edu.sydney.soft3202.majorproject.TestModelAPILogic" time="0.0"/>
+  <testcase name="testOutputAPIOnlineWithMock_validKey()" classname="au.edu.sydney.soft3202.majorproject.TestModelAPILogic" time="0.001"/>
+  <testcase name="testSearchEmptyCity()" classname="au.edu.sydney.soft3202.majorproject.TestModelAPILogic" time="0.0"/>
+  <testcase name="testInputAPIOffline()" classname="au.edu.sydney.soft3202.majorproject.TestModelAPILogic" time="0.002"/>
+  <testcase name="testInputAPIWithMock()" classname="au.edu.sydney.soft3202.majorproject.TestModelAPILogic" time="0.004"/>
+  <system-out><![CDATA[[Nantong, 04, 17.3, 3.38535, east-northeast, 100, 0, 90, c04d, Overcast clouds, 32.03, 120.87]
+Nantong
+Paracel Islands
+cityPair is [32.03028, 120.87472]
+offline city weather is [Nantong, 04, 17.3, 3.38535, east-northeast, 100, 0, 90, c04d, Overcast clouds, 32.03028, 120.87472]
+my getting city weather is [Nantong, 04, 17.3, 3.38535, east-northeast, 100, 0, 90, c04d, Overcast clouds, 32.03028, 120.87472]
+Nantong
+Paracel Islands
+cityPair is [32.03028, 120.87472]
+
+jsonObject is 
+{"data":[{"rh":66.875,"pod":"d","lon":120.87,"pres":1011.5,"timezone":"Asia/Shanghai","ob_time":"2022-05-12 02:11","country_code":"CN","clouds":98,"ts":1652321493,"solar_rad":230.3,"state_code":"04","city_name":"Nantong","wind_spd":3.6113,"wind_cdir_full":"northeast","wind_cdir":"NE","slp":1012,"vis":10,"h_angle":-25.7,"sunset":"10:41","dni":911.54,"dewpt":15.9,"snow":0,"uv":2.83503,"precip":0,"wind_dir":49,"sunrise":"21:00","ghi":909.83,"dhi":120.07,"aqi":80,"lat":32.03,"weather":{"icon":"c04d","code":804,"description":"Overcast clouds"},"datetime":"2022-05-12:02","temp":22.5,"station":"ZSSS","elev_angle":61.07,"app_temp":22.5}],"count":1}
+
+
+hello?
+[Nantong, 04, 22.5, 3.6113, northeast, 98, 0, 80, c04d, Overcast clouds, 32.03, 120.87]
+my getting city weather is [Nantong, 04, 22.5, 3.6113, northeast, 98, 0, 80, c04d, Overcast clouds, 32.03, 120.87]
+
+cityPair is [32.03028, 120.87472]
+[Nantong, 04, 22.5, 3.6113, northeast, 98, 0, 80, c04d, Overcast clouds, 32.03, 120.87]
+Nantong
+Paracel Islands
+
+jsonObject is 
+null
+
+
+my getting city weather is null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - TestModelAPILogic</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>TestModelAPILogic</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/au.edu.sydney.soft3202.majorproject.html">au.edu.sydney.soft3202.majorproject</a> &gt; TestModelAPILogic</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">10</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.136s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testInputAPIOffline()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInputAPIWithMock()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInputAPIWithMockOnline()</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInputAPIWithMock_invalidKey_online()</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInputAPIWithMock_offline()</td>
+<td class="success">0.036s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInputAPIWithoutMock()</td>
+<td class="success">0.029s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOutputAPIOfflineWithoutMock()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOutputAPIOnlineWithMock_invalidKey()</td>
+<td class="success">0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOutputAPIOnlineWithMock_validKey()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSearchEmptyCity()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[Nantong, 04, 17.3, 3.38535, east-northeast, 100, 0, 90, c04d, Overcast clouds, 32.03, 120.87]
+Nantong
+Paracel Islands
+cityPair is [32.03028, 120.87472]
+offline city weather is [Nantong, 04, 17.3, 3.38535, east-northeast, 100, 0, 90, c04d, Overcast clouds, 32.03028, 120.87472]
+my getting city weather is [Nantong, 04, 17.3, 3.38535, east-northeast, 100, 0, 90, c04d, Overcast clouds, 32.03028, 120.87472]
+Nantong
+Paracel Islands
+cityPair is [32.03028, 120.87472]
+
+jsonObject is 
+{&quot;data&quot;:[{&quot;rh&quot;:66.875,&quot;pod&quot;:&quot;d&quot;,&quot;lon&quot;:120.87,&quot;pres&quot;:1011.5,&quot;timezone&quot;:&quot;Asia/Shanghai&quot;,&quot;ob_time&quot;:&quot;2022-05-12 02:11&quot;,&quot;country_code&quot;:&quot;CN&quot;,&quot;clouds&quot;:98,&quot;ts&quot;:1652321493,&quot;solar_rad&quot;:230.3,&quot;state_code&quot;:&quot;04&quot;,&quot;city_name&quot;:&quot;Nantong&quot;,&quot;wind_spd&quot;:3.6113,&quot;wind_cdir_full&quot;:&quot;northeast&quot;,&quot;wind_cdir&quot;:&quot;NE&quot;,&quot;slp&quot;:1012,&quot;vis&quot;:10,&quot;h_angle&quot;:-25.7,&quot;sunset&quot;:&quot;10:41&quot;,&quot;dni&quot;:911.54,&quot;dewpt&quot;:15.9,&quot;snow&quot;:0,&quot;uv&quot;:2.83503,&quot;precip&quot;:0,&quot;wind_dir&quot;:49,&quot;sunrise&quot;:&quot;21:00&quot;,&quot;ghi&quot;:909.83,&quot;dhi&quot;:120.07,&quot;aqi&quot;:80,&quot;lat&quot;:32.03,&quot;weather&quot;:{&quot;icon&quot;:&quot;c04d&quot;,&quot;code&quot;:804,&quot;description&quot;:&quot;Overcast clouds&quot;},&quot;datetime&quot;:&quot;2022-05-12:02&quot;,&quot;temp&quot;:22.5,&quot;station&quot;:&quot;ZSSS&quot;,&quot;elev_angle&quot;:61.07,&quot;app_temp&quot;:22.5}],&quot;count&quot;:1}
+
+
+hello?
+[Nantong, 04, 22.5, 3.6113, northeast, 98, 0, 80, c04d, Overcast clouds, 32.03, 120.87]
+my getting city weather is [Nantong, 04, 22.5, 3.6113, northeast, 98, 0, 80, c04d, Overcast clouds, 32.03, 120.87]
+
+cityPair is [32.03028, 120.87472]
+[Nantong, 04, 22.5, 3.6113, northeast, 98, 0, 80, c04d, Overcast clouds, 32.03, 120.87]
+Nantong
+Paracel Islands
+
+jsonObject is 
+null
+
+
+my getting city weather is null
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4.2</a> at Jun 18, 2022, 9:05:02 AM</p>
+</div>
+</div>
+</body>
+</html>
